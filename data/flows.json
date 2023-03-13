@@ -127,5 +127,42 @@
         "x": 640,
         "y": 160,
         "wires": []
+    },
+    {
+        "id": "03115446507e3ebf",
+        "type": "mqtt in",
+        "z": "63171a50c2e67a27",
+        "name": "",
+        "topic": "test_out",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "0d66540d5880aaf8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 340,
+        "wires": [
+            [
+                "9080b9c3e7a63aab"
+            ]
+        ]
+    },
+    {
+        "id": "9080b9c3e7a63aab",
+        "type": "debug",
+        "z": "63171a50c2e67a27",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 340,
+        "wires": []
     }
 ]
